@@ -1,0 +1,171 @@
+body{
+	background: url("c.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#misc{
+	border: 4px ridge red;
+	border-radius: 8px; 
+	text-align: center;
+	padding: 20px;
+	animation-fill-mode: forwards;
+	background-color: #2D3C8E;
+}
+
+.opscreen{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 500;
+	line-height: 23px;
+ 	color: green;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px black, 
+      7px 7px 0px rgba(0, 0, 0, 0.2); 
+	text-align: left;
+	margin-left: 400px; 
+	padding-top: 10px; 
+	font-size: 50px;
+
+	animation-name: ex;
+	animation-duration: 4s;
+}
+
+#tabs{
+	position: relative;
+	top: 100px;
+	background-color: pink;
+	opacity: 0.8;
+}
+
+#new{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 200;
+	line-height: 23px;
+ 	color: red;
+    letter-spacing: .05em;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    text-shadow: 
+      1px 1px 0px black;
+}
+
+h2{
+	text-align:center;
+	color: #E75757;
+	font-family:'Rockwell';
+	font-size: 400 px;
+	font-variant: small-caps;
+	background : #B7F5C1;
+	border-radius: 3px;
+    letter-spacing: 1px;
+	text-shadow: 
+      1px 1px 0px yellow;
+}
+
+ul{
+    list-style-image: url("bullet_red.png");
+    height: 5px;
+}
+
+a, a:visited,a:active{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: Rockwell;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 23px;
+	text-shadow: 
+      1px 1px 0px yellow;
+}
+a:hover{
+    transform:scale(1.15);
+    text-decoration: blink;
+}
+
+.list{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 200;
+ 	color: red;
+    letter-spacing: .05em;
+    text-shadow: 
+      1px 1px 0px yellow;
+}
+
+.resize{
+    width:480px; /* you can use % */
+    height: auto;
+    border-radius: 3px;
+}
+
+#aboutme{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+}
+
+#contactme{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 200;
+ 	color: red;
+ 	background-color: #7F8C8D;
+ 	opacity: 0.7;
+    letter-spacing: .05em;
+    border: 4px ridge green;
+    position: relative;
+    top: 10px;
+    text-shadow: 
+      2px 2px 0px yellow;
+}    
+
+#contactbar{
+	border: 4px ridge red;
+	padding: 5px;
+	background-color: #009944;
+	opacity: 0.8;
+	position: relative;
+	top:20px;
+}
+
+.icons{
+	width: 90px;
+}
+
+.vsahu{
+	color: orange;
+}
+
+.interests{
+	border-left: 4px ridge #E5006A;
+	font-family: Rockwell;
+	font-size: 23px;
+	font-style: normal;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 23px;
+	padding: 5px;
+	margin-right: 1px;
+	text-shadow: 
+      1px 1px 0px #BDE158; 
+}
+
+@keyframes ex{
+    from {transform: translate(0, -120px);}
+    to {transform: translate(0, 0);}
+}           
